@@ -104,6 +104,9 @@
             <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.dll" Guid="*">
                 <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.dll" KeyPath="yes" Source="$(var.HarvestPath)\Microsoft.SqlServer.TransactSql.ScriptDom.dll" />
             </Component>
+            <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.pdb" Guid="*">
+                <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.pdb" KeyPath="yes" Source="$(var.HarvestPath)\Microsoft.SqlServer.TransactSql.ScriptDom.pdb" />
+            </Component>
             <Component Id="Microsoft.VisualStudio.CoreUtility.dll" Guid="*">
                 <File Id="Microsoft.VisualStudio.CoreUtility.dll" KeyPath="yes" Source="$(var.HarvestPath)\Microsoft.VisualStudio.CoreUtility.dll" />
             </Component>
@@ -227,7 +230,16 @@
             <Component Id="System.ValueTuple.dll" Guid="*">
                 <File Id="System.ValueTuple.dll" KeyPath="yes" Source="$(var.HarvestPath)\System.ValueTuple.dll" />
             </Component>
+            <Component Id="XPath2.dll" Guid="*">
+                <File Id="XPath2.dll" KeyPath="yes" Source="$(var.HarvestPath)\XPath2.dll" />
+            </Component>
+            <Component Id="XPath2.Extensions.dll" Guid="*">
+                <File Id="XPath2.Extensions.dll" KeyPath="yes" Source="$(var.HarvestPath)\XPath2.Extensions.dll" />
+            </Component>
             <Directory Id="cs" Name="cs">
+                <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" Guid="*">
+                    <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" KeyPath="yes" Source="$(var.HarvestPath)\cs\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
+                </Component>
                 <Component Id="Microsoft.VisualStudio.Threading.resources.dll" Guid="*">
                     <File Id="Microsoft.VisualStudio.Threading.resources.dll" KeyPath="yes" Source="$(var.HarvestPath)\cs\Microsoft.VisualStudio.Threading.resources.dll" />
                 </Component>
@@ -238,6 +250,9 @@
             <Directory Id="de" Name="de">
                 <Component Id="Microsoft.Data.SqlClient.resources.dll" Guid="*">
                     <File Id="Microsoft.Data.SqlClient.resources.dll" KeyPath="yes" Source="$(var.HarvestPath)\de\Microsoft.Data.SqlClient.resources.dll" />
+                </Component>
+                <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_1" Guid="*">
+                    <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_1" KeyPath="yes" Source="$(var.HarvestPath)\de\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
                 </Component>
                 <Component Id="Microsoft.VisualStudio.Threading.resources.dll_1" Guid="*">
                     <File Id="Microsoft.VisualStudio.Threading.resources.dll_1" KeyPath="yes" Source="$(var.HarvestPath)\de\Microsoft.VisualStudio.Threading.resources.dll" />
@@ -250,6 +265,9 @@
                 <Component Id="Microsoft.Data.SqlClient.resources.dll_1" Guid="*">
                     <File Id="Microsoft.Data.SqlClient.resources.dll_1" KeyPath="yes" Source="$(var.HarvestPath)\es\Microsoft.Data.SqlClient.resources.dll" />
                 </Component>
+                <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_2" Guid="*">
+                    <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_2" KeyPath="yes" Source="$(var.HarvestPath)\es\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
+                </Component>
                 <Component Id="Microsoft.VisualStudio.Threading.resources.dll_2" Guid="*">
                     <File Id="Microsoft.VisualStudio.Threading.resources.dll_2" KeyPath="yes" Source="$(var.HarvestPath)\es\Microsoft.VisualStudio.Threading.resources.dll" />
                 </Component>
@@ -260,6 +278,9 @@
             <Directory Id="fr" Name="fr">
                 <Component Id="Microsoft.Data.SqlClient.resources.dll_2" Guid="*">
                     <File Id="Microsoft.Data.SqlClient.resources.dll_2" KeyPath="yes" Source="$(var.HarvestPath)\fr\Microsoft.Data.SqlClient.resources.dll" />
+                </Component>
+                <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_3" Guid="*">
+                    <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_3" KeyPath="yes" Source="$(var.HarvestPath)\fr\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
                 </Component>
                 <Component Id="Microsoft.VisualStudio.Threading.resources.dll_3" Guid="*">
                     <File Id="Microsoft.VisualStudio.Threading.resources.dll_3" KeyPath="yes" Source="$(var.HarvestPath)\fr\Microsoft.VisualStudio.Threading.resources.dll" />
@@ -272,6 +293,9 @@
                 <Component Id="Microsoft.Data.SqlClient.resources.dll_3" Guid="*">
                     <File Id="Microsoft.Data.SqlClient.resources.dll_3" KeyPath="yes" Source="$(var.HarvestPath)\it\Microsoft.Data.SqlClient.resources.dll" />
                 </Component>
+                <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_4" Guid="*">
+                    <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_4" KeyPath="yes" Source="$(var.HarvestPath)\it\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
+                </Component>
                 <Component Id="Microsoft.VisualStudio.Threading.resources.dll_4" Guid="*">
                     <File Id="Microsoft.VisualStudio.Threading.resources.dll_4" KeyPath="yes" Source="$(var.HarvestPath)\it\Microsoft.VisualStudio.Threading.resources.dll" />
                 </Component>
@@ -282,6 +306,9 @@
             <Directory Id="ja" Name="ja">
                 <Component Id="Microsoft.Data.SqlClient.resources.dll_4" Guid="*">
                     <File Id="Microsoft.Data.SqlClient.resources.dll_4" KeyPath="yes" Source="$(var.HarvestPath)\ja\Microsoft.Data.SqlClient.resources.dll" />
+                </Component>
+                <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_5" Guid="*">
+                    <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_5" KeyPath="yes" Source="$(var.HarvestPath)\ja\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
                 </Component>
                 <Component Id="Microsoft.VisualStudio.Threading.resources.dll_5" Guid="*">
                     <File Id="Microsoft.VisualStudio.Threading.resources.dll_5" KeyPath="yes" Source="$(var.HarvestPath)\ja\Microsoft.VisualStudio.Threading.resources.dll" />
@@ -294,6 +321,9 @@
                 <Component Id="Microsoft.Data.SqlClient.resources.dll_5" Guid="*">
                     <File Id="Microsoft.Data.SqlClient.resources.dll_5" KeyPath="yes" Source="$(var.HarvestPath)\ko\Microsoft.Data.SqlClient.resources.dll" />
                 </Component>
+                <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_6" Guid="*">
+                    <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_6" KeyPath="yes" Source="$(var.HarvestPath)\ko\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
+                </Component>
                 <Component Id="Microsoft.VisualStudio.Threading.resources.dll_6" Guid="*">
                     <File Id="Microsoft.VisualStudio.Threading.resources.dll_6" KeyPath="yes" Source="$(var.HarvestPath)\ko\Microsoft.VisualStudio.Threading.resources.dll" />
                 </Component>
@@ -302,6 +332,9 @@
                 </Component>
             </Directory>
             <Directory Id="pl" Name="pl">
+                <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_7" Guid="*">
+                    <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_7" KeyPath="yes" Source="$(var.HarvestPath)\pl\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
+                </Component>
                 <Component Id="Microsoft.VisualStudio.Threading.resources.dll_7" Guid="*">
                     <File Id="Microsoft.VisualStudio.Threading.resources.dll_7" KeyPath="yes" Source="$(var.HarvestPath)\pl\Microsoft.VisualStudio.Threading.resources.dll" />
                 </Component>
@@ -312,6 +345,9 @@
             <Directory Id="pt_BR" Name="pt-BR">
                 <Component Id="Microsoft.Data.SqlClient.resources.dll_6" Guid="*">
                     <File Id="Microsoft.Data.SqlClient.resources.dll_6" KeyPath="yes" Source="$(var.HarvestPath)\pt-BR\Microsoft.Data.SqlClient.resources.dll" />
+                </Component>
+                <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_8" Guid="*">
+                    <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_8" KeyPath="yes" Source="$(var.HarvestPath)\pt-BR\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
                 </Component>
                 <Component Id="Microsoft.VisualStudio.Threading.resources.dll_8" Guid="*">
                     <File Id="Microsoft.VisualStudio.Threading.resources.dll_8" KeyPath="yes" Source="$(var.HarvestPath)\pt-BR\Microsoft.VisualStudio.Threading.resources.dll" />
@@ -324,6 +360,9 @@
                 <Component Id="Microsoft.Data.SqlClient.resources.dll_7" Guid="*">
                     <File Id="Microsoft.Data.SqlClient.resources.dll_7" KeyPath="yes" Source="$(var.HarvestPath)\ru\Microsoft.Data.SqlClient.resources.dll" />
                 </Component>
+                <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_9" Guid="*">
+                    <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_9" KeyPath="yes" Source="$(var.HarvestPath)\ru\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
+                </Component>
                 <Component Id="Microsoft.VisualStudio.Threading.resources.dll_9" Guid="*">
                     <File Id="Microsoft.VisualStudio.Threading.resources.dll_9" KeyPath="yes" Source="$(var.HarvestPath)\ru\Microsoft.VisualStudio.Threading.resources.dll" />
                 </Component>
@@ -332,6 +371,9 @@
                 </Component>
             </Directory>
             <Directory Id="tr" Name="tr">
+                <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_10" Guid="*">
+                    <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_10" KeyPath="yes" Source="$(var.HarvestPath)\tr\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
+                </Component>
                 <Component Id="Microsoft.VisualStudio.Threading.resources.dll_10" Guid="*">
                     <File Id="Microsoft.VisualStudio.Threading.resources.dll_10" KeyPath="yes" Source="$(var.HarvestPath)\tr\Microsoft.VisualStudio.Threading.resources.dll" />
                 </Component>
@@ -343,6 +385,9 @@
                 <Component Id="Microsoft.Data.SqlClient.resources.dll_8" Guid="*">
                     <File Id="Microsoft.Data.SqlClient.resources.dll_8" KeyPath="yes" Source="$(var.HarvestPath)\zh-Hans\Microsoft.Data.SqlClient.resources.dll" />
                 </Component>
+                <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_11" Guid="*">
+                    <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_11" KeyPath="yes" Source="$(var.HarvestPath)\zh-Hans\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
+                </Component>
                 <Component Id="Microsoft.VisualStudio.Threading.resources.dll_11" Guid="*">
                     <File Id="Microsoft.VisualStudio.Threading.resources.dll_11" KeyPath="yes" Source="$(var.HarvestPath)\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll" />
                 </Component>
@@ -353,6 +398,9 @@
             <Directory Id="zh_Hant" Name="zh-Hant">
                 <Component Id="Microsoft.Data.SqlClient.resources.dll_9" Guid="*">
                     <File Id="Microsoft.Data.SqlClient.resources.dll_9" KeyPath="yes" Source="$(var.HarvestPath)\zh-Hant\Microsoft.Data.SqlClient.resources.dll" />
+                </Component>
+                <Component Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_12" Guid="*">
+                    <File Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_12" KeyPath="yes" Source="$(var.HarvestPath)\zh-Hant\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
                 </Component>
                 <Component Id="Microsoft.VisualStudio.Threading.resources.dll_12" Guid="*">
                     <File Id="Microsoft.VisualStudio.Threading.resources.dll_12" KeyPath="yes" Source="$(var.HarvestPath)\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll" />
@@ -399,6 +447,7 @@
             <ComponentRef Id="Microsoft.SqlServer.ConnectionInfo.dll" />
             <ComponentRef Id="Microsoft.SqlServer.RegSvrEnum.dll" />
             <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.dll" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.pdb" />
             <ComponentRef Id="Microsoft.VisualStudio.CoreUtility.dll" />
             <ComponentRef Id="Microsoft.VisualStudio.Imaging.dll" />
             <ComponentRef Id="Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll" />
@@ -440,40 +489,55 @@
             <ComponentRef Id="System.Text.Json.dll" />
             <ComponentRef Id="System.Threading.Tasks.Extensions.dll" />
             <ComponentRef Id="System.ValueTuple.dll" />
+            <ComponentRef Id="XPath2.dll" />
+            <ComponentRef Id="XPath2.Extensions.dll" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
             <ComponentRef Id="Microsoft.VisualStudio.Threading.resources.dll" />
             <ComponentRef Id="Microsoft.VisualStudio.Validation.resources.dll" />
             <ComponentRef Id="Microsoft.Data.SqlClient.resources.dll" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_1" />
             <ComponentRef Id="Microsoft.VisualStudio.Threading.resources.dll_1" />
             <ComponentRef Id="Microsoft.VisualStudio.Validation.resources.dll_1" />
             <ComponentRef Id="Microsoft.Data.SqlClient.resources.dll_1" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_2" />
             <ComponentRef Id="Microsoft.VisualStudio.Threading.resources.dll_2" />
             <ComponentRef Id="Microsoft.VisualStudio.Validation.resources.dll_2" />
             <ComponentRef Id="Microsoft.Data.SqlClient.resources.dll_2" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_3" />
             <ComponentRef Id="Microsoft.VisualStudio.Threading.resources.dll_3" />
             <ComponentRef Id="Microsoft.VisualStudio.Validation.resources.dll_3" />
             <ComponentRef Id="Microsoft.Data.SqlClient.resources.dll_3" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_4" />
             <ComponentRef Id="Microsoft.VisualStudio.Threading.resources.dll_4" />
             <ComponentRef Id="Microsoft.VisualStudio.Validation.resources.dll_4" />
             <ComponentRef Id="Microsoft.Data.SqlClient.resources.dll_4" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_5" />
             <ComponentRef Id="Microsoft.VisualStudio.Threading.resources.dll_5" />
             <ComponentRef Id="Microsoft.VisualStudio.Validation.resources.dll_5" />
             <ComponentRef Id="Microsoft.Data.SqlClient.resources.dll_5" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_6" />
             <ComponentRef Id="Microsoft.VisualStudio.Threading.resources.dll_6" />
             <ComponentRef Id="Microsoft.VisualStudio.Validation.resources.dll_6" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_7" />
             <ComponentRef Id="Microsoft.VisualStudio.Threading.resources.dll_7" />
             <ComponentRef Id="Microsoft.VisualStudio.Validation.resources.dll_7" />
             <ComponentRef Id="Microsoft.Data.SqlClient.resources.dll_6" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_8" />
             <ComponentRef Id="Microsoft.VisualStudio.Threading.resources.dll_8" />
             <ComponentRef Id="Microsoft.VisualStudio.Validation.resources.dll_8" />
             <ComponentRef Id="Microsoft.Data.SqlClient.resources.dll_7" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_9" />
             <ComponentRef Id="Microsoft.VisualStudio.Threading.resources.dll_9" />
             <ComponentRef Id="Microsoft.VisualStudio.Validation.resources.dll_9" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_10" />
             <ComponentRef Id="Microsoft.VisualStudio.Threading.resources.dll_10" />
             <ComponentRef Id="Microsoft.VisualStudio.Validation.resources.dll_10" />
             <ComponentRef Id="Microsoft.Data.SqlClient.resources.dll_8" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_11" />
             <ComponentRef Id="Microsoft.VisualStudio.Threading.resources.dll_11" />
             <ComponentRef Id="Microsoft.VisualStudio.Validation.resources.dll_11" />
             <ComponentRef Id="Microsoft.Data.SqlClient.resources.dll_9" />
+            <ComponentRef Id="Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll_12" />
             <ComponentRef Id="Microsoft.VisualStudio.Threading.resources.dll_12" />
             <ComponentRef Id="Microsoft.VisualStudio.Validation.resources.dll_12" />
         </ComponentGroup>

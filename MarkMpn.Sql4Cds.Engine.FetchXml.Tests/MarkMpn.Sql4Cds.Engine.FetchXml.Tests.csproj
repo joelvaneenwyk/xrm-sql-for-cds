@@ -85,13 +85,13 @@
       <Version>1.58.1</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.CrmSdk.XrmTooling.CoreAssembly">
-      <Version>9.1.1.1</Version>
+      <Version>9.1.1.45</Version>
     </PackageReference>
     <PackageReference Include="MSTest.TestAdapter">
-      <Version>3.0.2</Version>
+      <Version>3.1.1</Version>
     </PackageReference>
     <PackageReference Include="MSTest.TestFramework">
-      <Version>3.0.2</Version>
+      <Version>3.1.1</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="..\MarkMpn.Sql4Cds.Engine\MarkMpn.Sql4Cds.Engine.FetchXml.projitems" Label="Shared" />
